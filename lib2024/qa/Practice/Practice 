@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 1 </title>
+	<meta charset="utf-8">
+	<meta name="description" content="This is a HTML document containing HTML tags">
+	<meta name="keywords" content="HTML,HTML5, Tags, Basic HTML, Standard Tags">
+	<meta name="robots" content= "noindex, nofollow">
+</head>
+<body>
+	<!-- header --> 
+	<header>
+		<h1>Assignment 1</h>
+	</header>
+
+	<main>
+		<!-- main --> 
+		<section>
+			<h2>This is the main Section</h2>
+			<article>
+				<div>I am a div</div>
+				<p>I am a paragraph</p>
+				<p>Thhis paragraph has a <br>Break</p>
+			</article>
+		</section> 
+
+		<! -- another section --> 
+		<section>
+			<h3>This is a section </3>
+
+			<! -- important part of the section -- > 
+			<article>
+				<div>This is important part of a section</div>
+			</article>
+
+			<! -- less important part of the section --> 
+			<aside> 
+				<div>This is a less important part of the section</div>
+			</aside> 
+
+			<! -- some links in a div --> 
+			<div>
+				<h4>Some links in a Div</h4>
+				<nav>
+					<a href= "https://google.com" title="Google" target="_blank">Google Link</a>
+					<a href="https://amazon.com" title="Amazon" target="_blank">Amazon Link</a>
+				</nav>
+			</div>
+
+			<! -- some lists in a div --> 
+			<div>
+				<h5>Some Lists in a Div</h5>
+					<ul>
+						<li>Unordered List Elment 1</li>
+						<li>Unordered List Elment 2</li>
+						<li>Unordered List Elment 3</li>
+					</ul
+
+					<ol>
+						<li>Unordered List Elment 1</li>
+						<li>Unordered List Elment 2</li>
+						<li>Unordered List Elment 3</li>
+					</ol>
+
+				</div>
+			</section>
+		</main>
+
+		<! -- footer -->
+		<footer>
+			<p>THis is the footer </p>
+		</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
