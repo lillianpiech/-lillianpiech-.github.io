@@ -1,0 +1,68 @@
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FF0000;
+  border-style: solid;
+  border-color: #dc143c;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
+  font-size: 40px;
+}
+
+body {
+  background-color: rgba(255, 0, 0, 0.3); 
+  font-family: fantasy;
+}
+
+
+img {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagecaption {
+  text-align: center;
+}
+
+
+.h2 {
+  text-align: center;
+  border: rgba(0, 0, 0, 1.0);
+  border-color: #dc143c;
+  border-style: solid;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+
+}
+
+
+.column {
+  border-style: dotted;
+  border-color: #dc143c;
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  margin-left: 150px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
