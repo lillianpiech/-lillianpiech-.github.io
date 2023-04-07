@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Assignment 4 Temperature Gage</title>
+	<meta charset="utf-8">
+	<meta name="description" content="A webpage containing a fahrenheit to celsius conversion">
+	<meta name="keywords" content="tempConversion, conversion, fahrenheit, celsius, fahrenheit to celsius">
+	<meta name="robots" content ="noindex, no follow">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"> 
+	<link rel="stylesheet" type="text/css" href="4CSS/assignment4.css">
+	<script src="4JS/Assignment4.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Temperature Converter</h1>
+  	<img src="Images/gauge.png" alt="thermometer">
+    
+    <div class="converter-row">
+        <div class="col">
+            <form>
+								<label>Fahrenheit:</label> 
+								<input type="text" name="fahr" size=7>
+								&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+
+        <input type="button" name="converter" class="button" value="Convert Temperature" onClick="tempConversion(this.form)"> <br>
+				<input type="button" name="wiper" class="erasebutton" value="Clear Entries" onClick="wipe(this.form)">
+  
+        <div class="col">
+            <label>Celsius</label>
+             <input type="text" name="cels" size=7>
+        </div>
+</form>
+</div>
+</body>
+</html>
