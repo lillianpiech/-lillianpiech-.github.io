@@ -1,0 +1,69 @@
+body {
+	background-color: lightgoldenrodyellow;
+	font-family: fantasy;
+}
+
+/*Add a black background color to the top naviagtion */
+.topnav {
+	background-color: darkgoldenrod; 
+	overflow: hidden;
+
+	@media min-width: 600px;
+		justify-content: space-between;
+}
+
+/*Style the links inside the navigation bar */ 
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/*change the color of the links on hover */
+.topnav a:hover {
+	background-color: #04AA6D;
+	color: white;
+}
+
+.title {
+	margin: auto;
+	width: 50% ;
+	text-align: center;
+	font-size: 35px;
+}
+
+
+.bee {
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 2px solid #ccc;
+  float: centre;
+  width: 200px;
+  display: grid;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  justify-content: center;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+

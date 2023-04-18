@@ -1,0 +1,63 @@
+body {
+	background-color: lightgoldenrodyellow;
+	font-family: fantasy;
+}
+
+/*Add a black background color to the top naviagtion */
+.topnav {
+	background-color: darkgoldenrod; 
+	overflow: hidden;
+
+	@media min-width: 600px;
+		justify-content: space-between;
+}
+
+/*Style the links inside the navigation bar */ 
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/*change the color of the links on hover */
+.topnav a:hover {
+	background-color: #04AA6D;
+	color: white;
+}
+
+.maintitle {
+	float: centre;
+	padding-top: 60px;
+	text-align: center;
+	font-size: 30px;
+	color: goldenrod;
+	;
+}
+
+.subscribe {
+	text-align: center;
+	border: ivory;
+	border-style: groove;
+	
+
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
